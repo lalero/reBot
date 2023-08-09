@@ -1,0 +1,16 @@
+Pages:
+- page: startpage
+  caption: Бот поддержки техники РЭБ
+  text: РэбБот приветствует Вас! Пожалуйста, выберите интересующий  Вас вопрос из списка или, если в списке его нет, задайте вопрос в чате.   
+  image: rebot_logo.jpg
+  button1: {caption: Установка ОС, page: os-installation} 
+  button2: {caption: Монтирование флешки, page: flash-mount}
+  button3: {caption: Установка дистрибутива изделия, page: distrib-installation}
+  button4: {caption: Задать вопрос в чате, page: chat}
+
+- page: os-installation
+  text: Выберите из списка операционную систему.
+  button1: {caption: МСВС 3.0, page: page-install-mcvc3}
+  button2: {caption: МСВС 5.0, page: page-install-mcvc5}
+  button3: {caption: Astra Linux 1.5, page: page-install-astra15}
+  button4: {caption: Astra Linux 1.6, page: page-install-astra16}
